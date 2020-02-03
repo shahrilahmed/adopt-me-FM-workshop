@@ -1,0 +1,24 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "Workshop project for learning React",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahrilahmed/adopt-me-FM-workshop.git"
+  },
+  "keywords": [
+    "learning",
+    "workshop",
+    "react"
+  ],
+  "author": "Brian Holt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahrilahmed/adopt-me-FM-workshop/issues"
+  },
+  "homepage": "https://github.com/shahrilahmed/adopt-me-FM-workshop#readme"
+}
