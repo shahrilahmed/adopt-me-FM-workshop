@@ -4,6 +4,8 @@
   "description": "Workshop project for learning React",
   "main": "App.js",
   "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/shahrilahmed/adopt-me-FM-workshop/issues"
   },
-  "homepage": "https://github.com/shahrilahmed/adopt-me-FM-workshop#readme"
+  "homepage": "https://github.com/shahrilahmed/adopt-me-FM-workshop#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "prettier": "^1.19.1"
+  }
 }
