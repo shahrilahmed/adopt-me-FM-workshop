@@ -5,6 +5,7 @@
   "main": "App.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "dev:mock": "cross-env PET_MOCK=mock npm run dev",
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/shahrilahmed/adopt-me-FM-workshop#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
+    "cross-env": "^7.0.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
@@ -39,5 +41,8 @@
     "@frontendmasters/pet": "^1.0.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
